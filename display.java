@@ -2,7 +2,7 @@ public class display{
 	public static void main(String[] argv){
 	int Is_PartTime_Present = 1;
 	int Is_FullTime_Present=2;
-	int Is_Absent=3;
+	int Is_Absent=0;
 	int EmpWagePerHours=20;
 	int EmpWorkingHours=0;
 	double empCheck = Math.floor(Math.random() * 10) %3;
