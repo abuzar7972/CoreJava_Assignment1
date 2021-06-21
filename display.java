@@ -22,7 +22,8 @@ public class display{
 			EmpWorkingHours=0;
 				break;
 		}
-		int salary = EmpWagePerHours*EmpWorkingHours;
+		int salary = EmpWagePerHours*EmpWorkingHours*20;
+		System.out.println("Salary Per Month");
 		System.out.println(salary);
 }
 }
